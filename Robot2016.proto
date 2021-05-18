@@ -43,8 +43,14 @@ Robot {
             }
             boundingObject Group {
                 children [
-                    Mesh {
-                        url "robot2016/convex/Torso.STL"
+                    Transform {
+                        translation -0.030906336382031455 5.677401888543931e-18 0.0893306895159185
+                        children [
+                            Box {
+                                size 0.1077000014483929 0.18019999563694003 0.19734659511595964
+
+                            }
+                        ]
                     }
                 ]
             }
@@ -92,8 +98,14 @@ Robot {
                                 }
                                 boundingObject Group {
                                     children [
-                                        Mesh {
-                                            url "robot2016/convex/HeadYaw.STL"
+                                        Transform {
+                                            translation 0.013300000689923763 -0.0032999999821186083 0.01924999989569197
+                                            children [
+                                                Box {
+                                                    size 0.05060000158846378 0.04509999975562096 0.03849999979138355
+
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -150,8 +162,14 @@ Robot {
                                                     }
                                                     boundingObject Group {
                                                         children [
-                                                            Mesh {
-                                                                url "robot2016/convex/HeadPitch.STL"
+                                                            Transform {
+                                                                translation 0.031023521863655815 0.0005238130688667329 0.032907420953046815
+                                                                children [
+                                                                    Box {
+                                                                        size 0.11095440550664204 0.06842392683029176 0.12628667569462354
+
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
                                                     }
@@ -244,8 +262,14 @@ Robot {
                                 }
                                 boundingObject Group {
                                     children [
-                                        Mesh {
-                                            url "robot2016/convex/LeftHipYaw.STL"
+                                        Transform {
+                                            translation -0.017708400264382362 0.0 -0.042911346070468426
+                                            children [
+                                                Box {
+                                                    size 0.10000000521540642 0.03547320142388344 0.04000000096857548
+
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -302,8 +326,14 @@ Robot {
                                                     }
                                                     boundingObject Group {
                                                         children [
-                                                            Mesh {
-                                                                url "robot2016/convex/LeftHipRoll.STL"
+                                                            Transform {
+                                                                translation 0.022588652558624744 0.0031500002369284673 -0.018050000071525574
+                                                                children [
+                                                                    Box {
+                                                                        size 0.09999999962747097 0.05529999919235708 0.06509999930858612
+
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
                                                     }
@@ -360,8 +390,14 @@ Robot {
                                                                         }
                                                                         boundingObject Group {
                                                                             children [
-                                                                                Mesh {
-                                                                                    url "robot2016/convex/LeftHipPitch.STL"
+                                                                                Transform {
+                                                                                    translation -0.0007417051254596523 -0.0003116428183693902 -0.08673009872817726
+                                                                                    children [
+                                                                                        Box {
+                                                                                            size 0.04720618343126433 0.06123674205137879 0.20322635347012297
+
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             ]
                                                                         }
@@ -418,8 +454,14 @@ Robot {
                                                                                             }
                                                                                             boundingObject Group {
                                                                                                 children [
-                                                                                                    Mesh {
-                                                                                                        url "robot2016/convex/LeftKnee.STL"
+                                                                                                    Transform {
+                                                                                                        translation 0.0014114991576318183 -0.0007200390100479128 -0.08572727993724576
+                                                                                                        children [
+                                                                                                            Box {
+                                                                                                                size 0.05565331496579047 0.06400000303983688 0.2048335651824809
+
+                                                                                                            }
+                                                                                                        ]
                                                                                                     }
                                                                                                 ]
                                                                                             }
@@ -476,8 +518,14 @@ Robot {
                                                                                                                 }
                                                                                                                 boundingObject Group {
                                                                                                                     children [
-                                                                                                                        Mesh {
-                                                                                                                            url "robot2016/convex/LeftFootPitch.STL"
+                                                                                                                        Transform {
+                                                                                                                            translation -0.022949999198317524 0.0024113468825817134 0.01679999940097332
+                                                                                                                            children [
+                                                                                                                                Box {
+                                                                                                                                    size 0.09389999881386757 0.050000000745058074 0.06259999796748161
+
+                                                                                                                                }
+                                                                                                                            ]
                                                                                                                         }
                                                                                                                     ]
                                                                                                                 }
@@ -534,8 +582,14 @@ Robot {
                                                                                                                                     }
                                                                                                                                     boundingObject Group {
                                                                                                                                         children [
-                                                                                                                                            Mesh {
-                                                                                                                                                url "robot2016/convex/LeftFootRoll.STL"
+                                                                                                                                            Transform {
+                                                                                                                                                translation -0.016426287591457367 0.010411348193883898 -0.01265567634254694
+                                                                                                                                                children [
+                                                                                                                                                    Box {
+                                                                                                                                                        size 0.16768401861190796 0.10547319799661639 0.053288644179701805
+
+                                                                                                                                                    }
+                                                                                                                                                ]
                                                                                                                                             }
                                                                                                                                         ]
                                                                                                                                     }
@@ -686,8 +740,14 @@ Robot {
                                 }
                                 boundingObject Group {
                                     children [
-                                        Mesh {
-                                            url "robot2016/convex/LeftShoulderPitch.STL"
+                                        Transform {
+                                            translation -0.0032999999821186074 0.020550000481307507 -0.012900000903755426
+                                            children [
+                                                Box {
+                                                    size 0.04509999975562096 0.035600000992417336 0.05060000251978636
+
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -744,8 +804,14 @@ Robot {
                                                     }
                                                     boundingObject Group {
                                                         children [
-                                                            Mesh {
-                                                                url "robot2016/convex/LeftShoulderRoll.STL"
+                                                            Transform {
+                                                                translation 0.0005222139880061152 0.003299999982118601 -0.0744999973103404
+                                                                children [
+                                                                    Box {
+                                                                        size 0.04499999992549419 0.04509999975562097 0.17099999822676182
+
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
                                                     }
@@ -802,8 +868,14 @@ Robot {
                                                                         }
                                                                         boundingObject Group {
                                                                             children [
-                                                                                Mesh {
-                                                                                    url "robot2016/convex/LeftElbow.STL"
+                                                                                Transform {
+                                                                                    translation 2.6302702886912043e-18 0.02147778682410717 -0.07669835537672043
+                                                                                    children [
+                                                                                        Box {
+                                                                                            size 0.07999999821186066 0.002999998629093177 0.1830032914876938
+
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             ]
                                                                         }
@@ -895,8 +967,14 @@ Robot {
                                 }
                                 boundingObject Group {
                                     children [
-                                        Mesh {
-                                            url "robot2016/convex/RightHipYaw.STL"
+                                        Transform {
+                                            translation -0.017708400264382362 0.0 -0.042911346070468426
+                                            children [
+                                                Box {
+                                                    size 0.10000000521540642 0.03547320142388344 0.04000000096857548
+
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -953,8 +1031,14 @@ Robot {
                                                     }
                                                     boundingObject Group {
                                                         children [
-                                                            Mesh {
-                                                                url "robot2016/convex/RightHipRoll.STL"
+                                                            Transform {
+                                                                translation 0.022588652558624744 0.0031500002369284673 -0.018050000071525574
+                                                                children [
+                                                                    Box {
+                                                                        size 0.09999999962747097 0.05529999919235708 0.06509999930858612
+
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
                                                     }
@@ -1011,8 +1095,14 @@ Robot {
                                                                         }
                                                                         boundingObject Group {
                                                                             children [
-                                                                                Mesh {
-                                                                                    url "robot2016/convex/RightHipPitch.STL"
+                                                                                Transform {
+                                                                                    translation -0.0007417051254596523 -0.0003116428183693902 -0.08673009872817726
+                                                                                    children [
+                                                                                        Box {
+                                                                                            size 0.04720618343126433 0.06123674205137879 0.20322635347012297
+
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             ]
                                                                         }
@@ -1069,8 +1159,14 @@ Robot {
                                                                                             }
                                                                                             boundingObject Group {
                                                                                                 children [
-                                                                                                    Mesh {
-                                                                                                        url "robot2016/convex/RightKnee.STL"
+                                                                                                    Transform {
+                                                                                                        translation 0.0014114991576318183 -0.0007200390100479128 -0.08572727993724576
+                                                                                                        children [
+                                                                                                            Box {
+                                                                                                                size 0.05565331496579047 0.06400000303983688 0.2048335651824809
+
+                                                                                                            }
+                                                                                                        ]
                                                                                                     }
                                                                                                 ]
                                                                                             }
@@ -1127,8 +1223,14 @@ Robot {
                                                                                                                 }
                                                                                                                 boundingObject Group {
                                                                                                                     children [
-                                                                                                                        Mesh {
-                                                                                                                            url "robot2016/convex/RightFootPitch.STL"
+                                                                                                                        Transform {
+                                                                                                                            translation -0.022949999198317524 0.0024113468825817134 0.01679999940097332
+                                                                                                                            children [
+                                                                                                                                Box {
+                                                                                                                                    size 0.09389999881386757 0.050000000745058074 0.06259999796748161
+
+                                                                                                                                }
+                                                                                                                            ]
                                                                                                                         }
                                                                                                                     ]
                                                                                                                 }
@@ -1185,8 +1287,14 @@ Robot {
                                                                                                                                     }
                                                                                                                                     boundingObject Group {
                                                                                                                                         children [
-                                                                                                                                            Mesh {
-                                                                                                                                                url "robot2016/convex/RightFootRoll.STL"
+                                                                                                                                            Transform {
+                                                                                                                                                translation -0.01643373444676398 -0.01158864982426167 -0.01265567634254694
+                                                                                                                                                children [
+                                                                                                                                                    Box {
+                                                                                                                                                        size 0.1676691249012947 0.10547320172190668 0.053288644179701805
+
+                                                                                                                                                    }
+                                                                                                                                                ]
                                                                                                                                             }
                                                                                                                                         ]
                                                                                                                                     }
@@ -1337,8 +1445,14 @@ Robot {
                                 }
                                 boundingObject Group {
                                     children [
-                                        Mesh {
-                                            url "robot2016/convex/RightShoulderPitch.STL"
+                                        Transform {
+                                            translation 0.0032999999821186066 -0.020550000481307507 -0.012900000903755426
+                                            children [
+                                                Box {
+                                                    size 0.045099999755620956 0.035600000992417336 0.05060000251978636
+
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -1395,8 +1509,14 @@ Robot {
                                                     }
                                                     boundingObject Group {
                                                         children [
-                                                            Mesh {
-                                                                url "robot2016/convex/RightShoulderRoll.STL"
+                                                            Transform {
+                                                                translation -0.0005222139880061152 -0.003299999982118612 -0.0744999973103404
+                                                                children [
+                                                                    Box {
+                                                                        size 0.04499999992549419 0.04509999975562097 0.17099999822676182
+
+                                                                    }
+                                                                ]
                                                             }
                                                         ]
                                                     }
@@ -1453,8 +1573,14 @@ Robot {
                                                                         }
                                                                         boundingObject Group {
                                                                             children [
-                                                                                Mesh {
-                                                                                    url "robot2016/convex/RightElbow.STL"
+                                                                                Transform {
+                                                                                    translation -2.6302702886912043e-18 -0.02147778682410717 -0.07669835537672043
+                                                                                    children [
+                                                                                        Box {
+                                                                                            size 0.07999999821186066 0.002999998629093177 0.1830032914876938
+
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             ]
                                                                         }
