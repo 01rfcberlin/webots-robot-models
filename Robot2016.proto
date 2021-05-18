@@ -5,7 +5,7 @@ PROTO Robot2016 [
     field SFString   name             "red player 1"
     field SFBool     selfCollision   TRUE
     field MFString   controllerArgs     []
-    field SFString   controller       "my_controller"
+    field SFString   controller       "player"
 ]
 {
 
