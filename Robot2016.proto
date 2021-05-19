@@ -908,6 +908,7 @@ Robot {
                                                                                                                 translation 0.030000 0.000000 0.000000
                                                                                                                 children [
                                                                                                                     Solid {
+                                                                                                                            name "LeftFinger [hand]"
                                                                                                                     }
                                                                                                                 ]
                                                                                                             }
@@ -1613,6 +1614,7 @@ Robot {
                                                                                                                 translation 0.030000 0.000000 0.000000
                                                                                                                 children [
                                                                                                                     Solid {
+                                                                                                                            name "RightFinger [hand]"
                                                                                                                     }
                                                                                                                 ]
                                                                                                             }
