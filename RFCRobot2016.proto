@@ -1,5 +1,5 @@
 #VRML_SIM R2021b utf8
-PROTO RFCRobot2016 [
+PROTO RFCRFCRobot2016 [
     field SFVec3f    translation      0 0 0
     field SFRotation rotation         0 0 1 0
     field SFString   name             "red player 1"
@@ -62,7 +62,7 @@ Robot {
                         }
                     }
                     geometry Mesh {
-                        url "robot2016/geometries/Torso.STL"
+                        url "RFCRobot2016/geometries/Torso.STL"
                     }
                 }
                 # root2HeadYaw
@@ -118,7 +118,7 @@ Robot {
                                             }
                                         }
                                         geometry Mesh {
-                                            url "robot2016/geometries/HeadYaw.STL"
+                                            url "RFCRobot2016/geometries/HeadYaw.STL"
                                         }
                                     }
                                     # HeadYaw2HeadYaw_body
@@ -182,7 +182,7 @@ Robot {
                                                                 }
                                                             }
                                                             geometry Mesh {
-                                                                url "robot2016/geometries/HeadPitch.STL"
+                                                                url "RFCRobot2016/geometries/HeadPitch.STL"
                                                             }
                                                         }
                                                         # HeadPitch2HeadPitch_body
@@ -282,7 +282,7 @@ Robot {
                                             }
                                         }
                                         geometry Mesh {
-                                            url "robot2016/geometries/LeftHipYaw.STL"
+                                            url "RFCRobot2016/geometries/LeftHipYaw.STL"
                                         }
                                     }
                                     # LeftHipYaw2LeftHipYaw_body
@@ -346,7 +346,7 @@ Robot {
                                                                 }
                                                             }
                                                             geometry Mesh {
-                                                                url "robot2016/geometries/LeftHipRoll.STL"
+                                                                url "RFCRobot2016/geometries/LeftHipRoll.STL"
                                                             }
                                                         }
                                                         # LeftHipRoll2LeftHipRoll_body
@@ -410,7 +410,7 @@ Robot {
                                                                                     }
                                                                                 }
                                                                                 geometry Mesh {
-                                                                                    url "robot2016/geometries/LeftHipPitch.STL"
+                                                                                    url "RFCRobot2016/geometries/LeftHipPitch.STL"
                                                                                 }
                                                                             }
                                                                             # LeftHipPitch2LeftHipPitch_body
@@ -474,7 +474,7 @@ Robot {
                                                                                                         }
                                                                                                     }
                                                                                                     geometry Mesh {
-                                                                                                        url "robot2016/geometries/LeftKnee.STL"
+                                                                                                        url "RFCRobot2016/geometries/LeftKnee.STL"
                                                                                                     }
                                                                                                 }
                                                                                                 # LeftKnee2LeftKnee_body
@@ -538,7 +538,7 @@ Robot {
                                                                                                                             }
                                                                                                                         }
                                                                                                                         geometry Mesh {
-                                                                                                                            url "robot2016/geometries/LeftFootPitch.STL"
+                                                                                                                            url "RFCRobot2016/geometries/LeftFootPitch.STL"
                                                                                                                         }
                                                                                                                     }
                                                                                                                     # LeftFootPitch2LeftFootPitch_body
@@ -602,7 +602,7 @@ Robot {
                                                                                                                                                 }
                                                                                                                                             }
                                                                                                                                             geometry Mesh {
-                                                                                                                                                url "robot2016/geometries/LeftFootRoll.STL"
+                                                                                                                                                url "RFCRobot2016/geometries/LeftFootRoll.STL"
                                                                                                                                             }
                                                                                                                                         }
                                                                                                                                         # LeftFootRoll2LeftFootRoll_body
@@ -760,7 +760,7 @@ Robot {
                                             }
                                         }
                                         geometry Mesh {
-                                            url "robot2016/geometries/LeftShoulderPitch.STL"
+                                            url "RFCRobot2016/geometries/LeftShoulderPitch.STL"
                                         }
                                     }
                                     # LeftShoulderPitch2LeftShoulderPitch_body
@@ -824,7 +824,7 @@ Robot {
                                                                 }
                                                             }
                                                             geometry Mesh {
-                                                                url "robot2016/geometries/LeftShoulderRoll.STL"
+                                                                url "RFCRobot2016/geometries/LeftShoulderRoll.STL"
                                                             }
                                                         }
                                                         # LeftShoulderRoll2LeftShoulderRoll_body
@@ -888,7 +888,7 @@ Robot {
                                                                                     }
                                                                                 }
                                                                                 geometry Mesh {
-                                                                                    url "robot2016/geometries/LeftElbow.STL"
+                                                                                    url "RFCRobot2016/geometries/LeftElbow.STL"
                                                                                 }
                                                                             }
                                                                             # LeftElbow2LeftElbow_body
@@ -988,7 +988,7 @@ Robot {
                                             }
                                         }
                                         geometry Mesh {
-                                            url "robot2016/geometries/RightHipYaw.STL"
+                                            url "RFCRobot2016/geometries/RightHipYaw.STL"
                                         }
                                     }
                                     # RightHipYaw2RightHipYaw_body
@@ -1052,7 +1052,7 @@ Robot {
                                                                 }
                                                             }
                                                             geometry Mesh {
-                                                                url "robot2016/geometries/RightHipRoll.STL"
+                                                                url "RFCRobot2016/geometries/RightHipRoll.STL"
                                                             }
                                                         }
                                                         # RightHipRoll2RightHipRoll_body
@@ -1116,7 +1116,7 @@ Robot {
                                                                                     }
                                                                                 }
                                                                                 geometry Mesh {
-                                                                                    url "robot2016/geometries/RightHipPitch.STL"
+                                                                                    url "RFCRobot2016/geometries/RightHipPitch.STL"
                                                                                 }
                                                                             }
                                                                             # RightHipPitch2RightHipPitch_body
@@ -1180,7 +1180,7 @@ Robot {
                                                                                                         }
                                                                                                     }
                                                                                                     geometry Mesh {
-                                                                                                        url "robot2016/geometries/RightKnee.STL"
+                                                                                                        url "RFCRobot2016/geometries/RightKnee.STL"
                                                                                                     }
                                                                                                 }
                                                                                                 # RightKnee2RightKnee_body
@@ -1244,7 +1244,7 @@ Robot {
                                                                                                                             }
                                                                                                                         }
                                                                                                                         geometry Mesh {
-                                                                                                                            url "robot2016/geometries/RightFootPitch.STL"
+                                                                                                                            url "RFCRobot2016/geometries/RightFootPitch.STL"
                                                                                                                         }
                                                                                                                     }
                                                                                                                     # RightFootPitch2RightFootPitch_body
@@ -1308,7 +1308,7 @@ Robot {
                                                                                                                                                 }
                                                                                                                                             }
                                                                                                                                             geometry Mesh {
-                                                                                                                                                url "robot2016/geometries/RightFootRoll.STL"
+                                                                                                                                                url "RFCRobot2016/geometries/RightFootRoll.STL"
                                                                                                                                             }
                                                                                                                                         }
                                                                                                                                         # RightFootRoll2RightFootRoll_body
@@ -1466,7 +1466,7 @@ Robot {
                                             }
                                         }
                                         geometry Mesh {
-                                            url "robot2016/geometries/RightShoulderPitch.STL"
+                                            url "RFCRobot2016/geometries/RightShoulderPitch.STL"
                                         }
                                     }
                                     # RightShoulderPitch2RightShoulderPitch_body
@@ -1530,7 +1530,7 @@ Robot {
                                                                 }
                                                             }
                                                             geometry Mesh {
-                                                                url "robot2016/geometries/RightShoulderRoll.STL"
+                                                                url "RFCRobot2016/geometries/RightShoulderRoll.STL"
                                                             }
                                                         }
                                                         # RightShoulderRoll2RightShoulderRoll_body
@@ -1594,7 +1594,7 @@ Robot {
                                                                                     }
                                                                                 }
                                                                                 geometry Mesh {
-                                                                                    url "robot2016/geometries/RightElbow.STL"
+                                                                                    url "RFCRobot2016/geometries/RightElbow.STL"
                                                                                 }
                                                                             }
                                                                             # RightElbow2RightElbow_body
