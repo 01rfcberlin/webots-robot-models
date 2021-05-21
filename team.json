@@ -1,0 +1,85 @@
+{
+  "name": "01RFCBerlin",
+  "players": {
+    "1": {
+      "proto": "RFCRobot2016",
+      "robotStartCmd": "",
+      "halfTimeStartingPose": {
+        "translation": [-3.5, -3.06, 0.43],
+        "rotation": [0, 0, 1, 1.57]
+      },
+      "reentryStartingPose": {
+        "translation": [-3.5, -3.11, 0.43],
+        "rotation": [0, 0, 1, 1.57]
+      },
+      "shootoutStartingPose": {
+        "translation": [2.6, 0, 0.43],
+        "rotation": [0, 0, 1, 0]
+      },
+      "goalKeeperStartingPose": {
+        "translation": [-4.47, 0, 0.43],
+        "rotation": [0, 0, 1, 0]
+      }
+    },
+    "2": {
+      "proto": "RFCRobot2016",
+      "robotStartCmd": "",
+      "halfTimeStartingPose": {
+        "translation": [-3.5, 3.06, 0.43],
+        "rotation": [0, 0, 1, -1.57]
+      },
+      "reentryStartingPose": {
+        "translation": [-3.5, 3.11, 0.43],
+        "rotation": [0, 0, 1, -1.57]
+      },
+      "shootoutStartingPose": {
+        "translation": [2.6, 0, 0.43],
+        "rotation": [0, 0, 1, 0]
+      },
+      "goalKeeperStartingPose": {
+        "translation": [-4.47, 0, 0.43],
+        "rotation": [0, 0, 1, 0]
+      }
+    },
+    "3": {
+      "proto": "RFCRobot2016",
+      "robotStartCmd": "",
+      "halfTimeStartingPose": {
+        "translation": [-0.75, -3.06, 0.43],
+        "rotation": [0, 0, 1, 1.57]
+      },
+      "reentryStartingPose": {
+        "translation": [-0.75, -3.11, 0.43],
+        "rotation": [0, 0, 1, 1.57]
+      },
+      "shootoutStartingPose": {
+        "translation": [2.6, 0, 0.43],
+        "rotation": [0, 0, 1, 0]
+      },
+      "goalKeeperStartingPose": {
+        "translation": [-4.47, 0, 0.43],
+        "rotation": [0, 0, 1, 0]
+      }
+    },
+    "4": {
+      "proto": "RFCRobot2016",
+      "robotStartCmd": "",
+      "halfTimeStartingPose": {
+        "translation": [-0.75, 3.06, 0.43],
+        "rotation": [0, 0, 1, -1.57]
+      },
+      "reentryStartingPose": {
+        "translation": [-0.75, 3.11, 0.43],
+        "rotation": [0, 0, 1, -1.57]
+      },
+      "shootoutStartingPose": {
+        "translation": [2.6, 0, 0.43],
+        "rotation": [0, 0, 1, 0]
+      },
+      "goalKeeperStartingPose": {
+        "translation": [-4.47, 0, 0.43],
+        "rotation": [0, 0, 1, 0]
+      }
+    }
+  }
+}
