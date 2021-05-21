@@ -3,8 +3,8 @@ PROTO RFCRobot2016 [
     field SFVec3f    translation      0 0 0
     field SFRotation rotation         0 0 1 0
     field SFString   name             "red player 1"
-    field SFBool     selfCollision   TRUE
-    field MFString   controllerArgs     []
+    field SFBool     selfCollision    TRUE
+    field MFString   controllerArgs   ["10001", "1", "127.0.0.1"]
     field SFString   controller       "player"
 ]
 {
