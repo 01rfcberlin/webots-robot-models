@@ -31,15 +31,18 @@ Robot {
     name IS name
     controller IS controller
     controllerArgs IS controllerArgs
+    # Fake physics node, real node is in node "torso"
     physics Physics {
-        mass 1
+        density -1
+        mass 0.001
         centerOfMass [ 0 0 0 ]
+        inertiaMatrix [ 0.001 0.001 0.001 0 0 0 ]
     }
     children [
         Solid {
             physics Physics {
                 density -1
-                mass 1.1499427556991577
+                mass 2.1499427556991577
                 centerOfMass [ -0.034269 0.000134 0.091558 ]
                 inertiaMatrix [ 0.0060859788209199905 0.0044529433362185955 0.004130957182496786 1.566585160617251e-05 0.00014397234190255404 1.350527156773751e-07]
             }
