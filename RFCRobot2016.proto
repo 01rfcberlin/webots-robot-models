@@ -32,6 +32,8 @@ Robot {
     controller IS controller
     controllerArgs IS controllerArgs
     physics Physics {
+        mass 1
+        centerOfMass [ 0 0 0 ]
     }
     children [
         Solid {
@@ -905,7 +907,7 @@ Robot {
                                                                                                         children [
                                                                                                             # LeftHand2LeftFinger
                                                                                                             Transform {
-                                                                                                                translation 0.030000 0.000000 0.000000
+                                                                                                                translation 0.000000 0.000000 -0.030000
                                                                                                                 children [
                                                                                                                     Solid {
                                                                                                                             name "LeftFinger [hand]"
@@ -1611,7 +1613,7 @@ Robot {
                                                                                                         children [
                                                                                                             # RightHand2RightFinger
                                                                                                             Transform {
-                                                                                                                translation 0.030000 0.000000 0.000000
+                                                                                                                translation 0.000000 0.000000 -0.030000
                                                                                                                 children [
                                                                                                                     Solid {
                                                                                                                             name "RightFinger [hand]"
@@ -1643,8 +1645,8 @@ Robot {
                 }
                 Gyro {
                     name "Gyroscope"
-                    lookupTable [ -2000 -32768 0.0085138,
-                                  2000 32767 0.0085138
+                    lookupTable [ -34.907 -32768 0.0085138,
+                                  34.907 32767 0.0085138
                                 ]
 ,
                     resolution 1
