@@ -6,6 +6,7 @@ PROTO RFCRobot2016SimplifiedVisuals [
     field SFBool     selfCollision    TRUE
     field MFString   controllerArgs   ["10001", "1", "127.0.0.1"]
     field SFString   controller       "player"
+    field SFString   customData       ""
 ]
 {
 
@@ -28,6 +29,7 @@ Robot {
     translation IS translation
     rotation IS rotation
     selfCollision IS selfCollision
+    customData IS customData
     name IS name
     controller IS controller
     controllerArgs IS controllerArgs
