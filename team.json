@@ -65,7 +65,7 @@
       }
     },
     "4": {
-      "robotModelName": "RFCRobot2016",
+      "proto": "RFCRobot2016",
       "dockerImg": "",
       "dockerCmd": "",
       "halfTimeStartingPose": {
