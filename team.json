@@ -31,7 +31,7 @@
         "rotation": [0, 0, 1, 1.57]
       },
       "shootoutStartingPose": {
-        "translation": [2.85, -0.05, 0.43],
+        "translation": [2.85, -0.065, 0.43],
         "rotation": [0, 0, 1, 0]
       }
     },
@@ -48,7 +48,7 @@
         "rotation": [0, 0, 1, 1.57]
       },
       "shootoutStartingPose": {
-        "translation": [2.85, -0.05, 0.43],
+        "translation": [2.85, -0.065, 0.43],
         "rotation": [0, 0, 1, 0]
       }
     },
@@ -65,7 +65,7 @@
         "rotation": [0, 0, 1, 1.57]
       },
       "shootoutStartingPose": {
-        "translation": [2.85, -0.05, 0.43],
+        "translation": [2.85, -0.065, 0.43],
         "rotation": [0, 0, 1, 0]
       }
     }
