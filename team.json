@@ -15,7 +15,7 @@
       },
       "shootoutStartingPose": {
         "translation": [2.85, -0.065, 0.43],
-        "rotation": [0, 0, 1, 3.14159]
+        "rotation": [0, 0, 1, 0]
       },
       "goalKeeperStartingPose": {
         "translation": [-4.47, 0, 0.24],
