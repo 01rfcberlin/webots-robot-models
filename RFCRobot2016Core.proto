@@ -12,16 +12,36 @@ PROTO RFCRobot2016Core [
 
     %{
       team_color="1. 0. 1."
+      team_jersey="RFCRobot2016/textures/red01.jpg"
       if fields.name.value ~= '' then
         -- name is supposed to be something like "red player 2" or "blue player 1"
         local words = {}
         for word in fields.name.value:gmatch("%w+") do table.insert(words, word) end
         color = words[1]
+        robotid = words[3]
         if color == "red" then
           team_color="1. 0. 0."
-         elseif color == "blue" then
+        elseif color == "blue" then
           team_color="0. 0. 1."
-         end
+        end
+        if color == "red" and robotid == "1" then
+            team_jersey="RFCRobot2016/textures/red01.jpg"
+        elseif color == "red" and  robotid == "2" then
+            team_jersey="RFCRobot2016/textures/red02.jpg"
+        elseif color == "red" and  robotid == "3" then
+            team_jersey="RFCRobot2016/textures/red03.jpg"
+        elseif color == "red" and  robotid == "4" then
+            team_jersey="RFCRobot2016/textures/red04.jpg"
+        elseif color == "blue" and  robotid == "1" then
+            team_jersey="RFCRobot2016/textures/blue01.jpg"
+        elseif color == "blue" and  robotid == "2" then
+            team_jersey="RFCRobot2016/textures/blue02.jpg"
+        elseif color == "blue" and  robotid == "3" then
+            team_jersey="RFCRobot2016/textures/blue03.jpg"
+        elseif color == "blue" and  robotid == "4" then
+            team_jersey="RFCRobot2016/textures/blue04.jpg"
+        end
+
       end
     }%
     # root
@@ -66,10 +86,13 @@ Robot {
                     appearance Appearance {
                         material Material {
                             diffuseColor %{=team_color}%
+                            ambientIntensity .4
                         }
+                    texture ImageTexture{url "%{=team_jersey}%"}
+                    textureTransform TextureTransform {scale 1 -1}
                     }
                     geometry Mesh {
-                        url "RFCRobot2016/geometries/Torso.STL"
+                        url "RFCRobot2016/geometries/Torso.obj"
                     }
                 }
                 # root2HeadYaw
@@ -892,6 +915,7 @@ Robot {
                                                                                 appearance Appearance {
                                                                                     material Material {
                                                                                         diffuseColor %{=team_color}%
+                                                                                        ambientIntensity .4
                                                                                     }
                                                                                 }
                                                                                 geometry Mesh {
@@ -1598,6 +1622,7 @@ Robot {
                                                                                 appearance Appearance {
                                                                                     material Material {
                                                                                         diffuseColor %{=team_color}%
+                                                                                        ambientIntensity .4
                                                                                     }
                                                                                 }
                                                                                 geometry Mesh {
