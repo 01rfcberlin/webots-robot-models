@@ -41,7 +41,6 @@ PROTO RFCRobot2016Core [
         elseif color == "blue" and  robotid == "4" then
             team_jersey="RFCRobot2016/textures/blue04.jpg"
         end
-
       end
     }%
     # root
@@ -123,8 +122,8 @@ Robot {
                                 physics Physics {
                                     density -1
                                     mass 0.045782651752233505
-                                    centerOfMass [ 0.010951 -0.000353 0.020030 ]
-                                    inertiaMatrix [ 8.64976682193583e-06 1.1297349367148611e-05 1.3156585564049932e-05 3.753339128695862e-07 2.7590006380130634e-07 -1.0815098164071267e-08]
+                                    centerOfMass [ 0.0110  -0.0003   0.0200 ]
+                                    inertiaMatrix [ 8.646311518371701e-06 1.1295745782736195e-05 1.3148196168798997e-05 -1.0496984525663393e-05 9.847402305351717e-06 1.064024335573502e-08]
                                 }
                                 boundingObject Group {
                                     children [
@@ -145,6 +144,7 @@ Robot {
                                         appearance Appearance {
                                             material Material {
                                                 diffuseColor 0.0 0.0 0.0
+                                                ambientIntensity .4
                                             }
                                         }
                                         geometry Mesh {
@@ -187,8 +187,8 @@ Robot {
                                                     physics Physics {
                                                         density -1
                                                         mass 0.05892692133784294
-                                                        centerOfMass [ 0.032247 0.000557 0.050376 ]
-                                                        inertiaMatrix [ 4.7922520025167614e-05 5.187792703509331e-05 4.989420995116234e-05 -2.4869672987648528e-09 1.055783468473237e-05 5.061923502580612e-08]
+                                                        centerOfMass [ 0.0327   0.0006   0.0533 ]
+                                                        inertiaMatrix [ 4.7001969493192344e-05 5.030344472020906e-05 4.473106815772885e-05 -0.00011149737907965638 0.00010152948765910401 -1.0736823125132683e-07]
                                                     }
                                                     boundingObject Group {
                                                         children [
@@ -209,6 +209,7 @@ Robot {
                                                             appearance Appearance {
                                                                 material Material {
                                                                     diffuseColor 0.0 0.0 0.0
+                                                                    ambientIntensity .4
                                                                 }
                                                             }
                                                             geometry Mesh {
@@ -287,8 +288,8 @@ Robot {
                                 physics Physics {
                                     density -1
                                     mass 0.0339411161839962
-                                    centerOfMass [ -0.018139 0.000000 -0.030665 ]
-                                    inertiaMatrix [ 7.794496923452243e-06 4.838458698941395e-05 4.904619345325045e-05 -1.5367977928060442e-19 -9.879863682726864e-08 3.97437868060247e-21]
+                                    centerOfMass [ -1.8393e-02   1.6903e-10  -3.0957e-02 ]
+                                    inertiaMatrix [ 7.267730874333741e-06 4.7570116727734975e-05 4.871226327385082e-05 -1.8793923750327388e-05 1.932530119962844e-05 6.897787811839299e-14]
                                 }
                                 boundingObject Group {
                                     children [
@@ -309,6 +310,7 @@ Robot {
                                         appearance Appearance {
                                             material Material {
                                                 diffuseColor 0.0 0.0 0.0
+                                                ambientIntensity .4
                                             }
                                         }
                                         geometry Mesh {
@@ -351,8 +353,8 @@ Robot {
                                                     physics Physics {
                                                         density -1
                                                         mass 0.18309427797794342
-                                                        centerOfMass [ 0.022754 0.000218 -0.014194 ]
-                                                        inertiaMatrix [ 7.762233872199431e-05 0.00015512151003349572 0.00013535765174310654 7.891504765211721e-07 -8.835964990794309e-07 9.369259714731015e-07]
+                                                        centerOfMass [ 0.0238   0.0002  -0.0147 ]
+                                                        inertiaMatrix [ 7.683568055096104e-05 0.00015873264507405507 0.00013516651291718527 6.459313552773335e-05 -6.597811739057604e-05 -1.057989978692873e-06]
                                                     }
                                                     boundingObject Group {
                                                         children [
@@ -373,6 +375,7 @@ Robot {
                                                             appearance Appearance {
                                                                 material Material {
                                                                     diffuseColor 0.0 0.0 0.0
+                                                                    ambientIntensity .4
                                                                 }
                                                             }
                                                             geometry Mesh {
@@ -415,8 +418,8 @@ Robot {
                                                                         physics Physics {
                                                                             density -1
                                                                             mass 0.1560063362121582
-                                                                            centerOfMass [ 0.000223 -0.000694 -0.121950 ]
-                                                                            inertiaMatrix [ 0.0004206289886496961 0.00038888599374331534 7.517741323681548e-05 -6.577629818593778e-08 1.0602379916235805e-05 -6.84497626934899e-06]
+                                                                            centerOfMass [ -0.0005  -0.0007  -0.1374 ]
+                                                                            inertiaMatrix [ 0.00032125978541540715 0.0002970898396070995 5.930513977255061e-05 -1.78090213779247e-05 1.0068949037320458e-05 9.12007031230333e-06]
                                                                         }
                                                                         boundingObject Group {
                                                                             children [
@@ -437,6 +440,7 @@ Robot {
                                                                                 appearance Appearance {
                                                                                     material Material {
                                                                                         diffuseColor 0.0 0.0 0.0
+                                                                                        ambientIntensity .4
                                                                                     }
                                                                                 }
                                                                                 geometry Mesh {
@@ -479,8 +483,8 @@ Robot {
                                                                                             physics Physics {
                                                                                                 density -1
                                                                                                 mass 0.07807834446430206
-                                                                                                centerOfMass [ 0.005140 -0.001144 -0.085833 ]
-                                                                                                inertiaMatrix [ 0.0002562484710131167 0.00021158467279747128 6.96752272426756e-05 2.147884757979195e-07 1.1233669840198298e-05 2.828218228343121e-06]
+                                                                                                centerOfMass [ 0.0045  -0.0017  -0.0935 ]
+                                                                                                inertiaMatrix [ 0.00029092979267659655 0.00024654474313989935 6.969445555567355e-05 1.5542010628360467e-05 -3.3007643787277195e-05 -6.3876452360132245e-06]
                                                                                             }
                                                                                             boundingObject Group {
                                                                                                 children [
@@ -501,6 +505,7 @@ Robot {
                                                                                                     appearance Appearance {
                                                                                                         material Material {
                                                                                                             diffuseColor 0.0 0.0 0.0
+                                                                                                            ambientIntensity .4
                                                                                                         }
                                                                                                     }
                                                                                                     geometry Mesh {
@@ -543,8 +548,8 @@ Robot {
                                                                                                                 physics Physics {
                                                                                                                     density -1
                                                                                                                     mass 0.16655351221561432
-                                                                                                                    centerOfMass [ -0.022091 -0.000392 0.014043 ]
-                                                                                                                    inertiaMatrix [ 6.524354103021324e-05 0.00013478889013640583 0.00011734279541997239 7.226054776765523e-07 1.2699683793471195e-06 -9.071092108570156e-07]
+                                                                                                                    centerOfMass [ -0.0211  -0.0004   0.0146 ]
+                                                                                                                    inertiaMatrix [ 6.406397989665348e-05 0.00013888992562354705 0.00011763402485724343 5.246599422116978e-05 -5.3259457568402065e-05 9.45602309928651e-07]
                                                                                                                 }
                                                                                                                 boundingObject Group {
                                                                                                                     children [
@@ -565,6 +570,7 @@ Robot {
                                                                                                                         appearance Appearance {
                                                                                                                             material Material {
                                                                                                                                 diffuseColor 0.0 0.0 0.0
+                                                                                                                                ambientIntensity .4
                                                                                                                             }
                                                                                                                         }
                                                                                                                         geometry Mesh {
@@ -607,8 +613,8 @@ Robot {
                                                                                                                                     physics Physics {
                                                                                                                                         density -1
                                                                                                                                         mass 0.5
-                                                                                                                                        centerOfMass [ -0.009240 0.010111 -0.034387 ]
-                                                                                                                                        inertiaMatrix [ 0.00015152498963288963 0.00032376780291087925 0.0004565156705211848 -2.3174870875664055e-05 4.556770363706164e-06 -2.9136283501429716e-06]
+                                                                                                                                        centerOfMass [ -0.0083   0.0098  -0.0335 ]
+                                                                                                                                        inertiaMatrix [ 0.0005098456321068815 0.00108562901560512 0.001502635126678064 -0.0002106009613988311 0.0002598373497410862 1.422986244963649e-05]
                                                                                                                                     }
                                                                                                                                     boundingObject Group {
                                                                                                                                         children [
@@ -629,6 +635,7 @@ Robot {
                                                                                                                                             appearance Appearance {
                                                                                                                                                 material Material {
                                                                                                                                                     diffuseColor 0.0 0.0 0.0
+                                                                                                                                                    ambientIntensity .4
                                                                                                                                                 }
                                                                                                                                             }
                                                                                                                                             geometry Mesh {
@@ -765,8 +772,8 @@ Robot {
                                 physics Physics {
                                     density -1
                                     mass 0.04650014638900757
-                                    centerOfMass [ -0.000347 0.019783 -0.010469 ]
-                                    inertiaMatrix [ 1.1310856280033477e-05 1.3080918506602757e-05 8.474862625007518e-06 -1.2374789193358993e-08 -3.740047134215274e-07 -2.7855338657900575e-07]
+                                    centerOfMass [ -0.0003   0.0198  -0.0105 ]
+                                    inertiaMatrix [ 1.1309023585654852e-05 1.307027276979988e-05 8.471517641981444e-06 -1.0834680883656436e-07 4.914137658731088e-07 2.8032421370906753e-07]
                                 }
                                 boundingObject Group {
                                     children [
@@ -787,6 +794,7 @@ Robot {
                                         appearance Appearance {
                                             material Material {
                                                 diffuseColor 0.0 0.0 0.0
+                                                ambientIntensity .4
                                             }
                                         }
                                         geometry Mesh {
@@ -829,8 +837,8 @@ Robot {
                                                     physics Physics {
                                                         density -1
                                                         mass 0.056488167494535446
-                                                        centerOfMass [ 0.000522 0.000286 -0.120622 ]
-                                                        inertiaMatrix [ 8.349423296749592e-05 8.60015643411316e-05 1.3630816283694003e-05 -1.1043153154075003e-12 -2.844323301193219e-12 -6.40447808564204e-07]
+                                                        centerOfMass [ 0.0005   0.0003  -0.1206 ]
+                                                        inertiaMatrix [ 8.347006007093584e-05 8.598803035824993e-05 1.3629224982011726e-05 3.565870239690153e-06 -3.5635302280834122e-06 6.325591511746584e-07]
                                                     }
                                                     boundingObject Group {
                                                         children [
@@ -851,6 +859,7 @@ Robot {
                                                             appearance Appearance {
                                                                 material Material {
                                                                     diffuseColor 0.0 0.0 0.0
+                                                                    ambientIntensity .4
                                                                 }
                                                             }
                                                             geometry Mesh {
@@ -893,8 +902,8 @@ Robot {
                                                                         physics Physics {
                                                                             density -1
                                                                             mass 0.025215454399585724
-                                                                            centerOfMass [ 0.000000 0.021478 -0.090892 ]
-                                                                            inertiaMatrix [ 6.219958595465869e-05 7.157350773923099e-05 9.411746759724338e-06 8.23389334420761e-22 4.921231755439237e-10 -1.1570053108766228e-20]
+                                                                            centerOfMass [ 1.0382e-06   2.1478e-02  -9.0940e-02 ]
+                                                                            inertiaMatrix [ 6.205479617153557e-05 7.141024919208927e-05 9.393276167585855e-06 5.877994511772368e-09 -3.0674982588530894e-09 -8.84510112363361e-10]
                                                                         }
                                                                         boundingObject Group {
                                                                             children [
@@ -994,8 +1003,8 @@ Robot {
                                 physics Physics {
                                     density -1
                                     mass 0.0339411161839962
-                                    centerOfMass [ -0.018139 0.000000 -0.030665 ]
-                                    inertiaMatrix [ 7.794496923452243e-06 4.838458698941395e-05 4.904619345325045e-05 3.862143034617382e-21 -9.879863682726864e-08 -2.330760302143234e-21]
+                                    centerOfMass [ -1.8393e-02   1.6903e-10  -3.0957e-02 ]
+                                    inertiaMatrix [ 7.267730874333802e-06 4.7570116727735015e-05 4.871226327385077e-05 -1.8793923750327364e-05 1.9325301199628443e-05 6.897787872825618e-14]
                                 }
                                 boundingObject Group {
                                     children [
@@ -1016,6 +1025,7 @@ Robot {
                                         appearance Appearance {
                                             material Material {
                                                 diffuseColor 0.0 0.0 0.0
+                                                ambientIntensity .4
                                             }
                                         }
                                         geometry Mesh {
@@ -1058,8 +1068,8 @@ Robot {
                                                     physics Physics {
                                                         density -1
                                                         mass 0.18309427797794342
-                                                        centerOfMass [ 0.022754 0.000218 -0.014194 ]
-                                                        inertiaMatrix [ 7.762233872199431e-05 0.00015512151003349572 0.00013535765174310654 7.891504765211721e-07 -8.835964990794309e-07 9.369259714731015e-07]
+                                                        centerOfMass [ 0.0238   0.0002  -0.0147 ]
+                                                        inertiaMatrix [ 7.683568055096104e-05 0.00015873264507405507 0.00013516651291718527 6.459313552773335e-05 -6.597811739057604e-05 -1.057989978692873e-06]
                                                     }
                                                     boundingObject Group {
                                                         children [
@@ -1080,6 +1090,7 @@ Robot {
                                                             appearance Appearance {
                                                                 material Material {
                                                                     diffuseColor 0.0 0.0 0.0
+                                                                    ambientIntensity .4
                                                                 }
                                                             }
                                                             geometry Mesh {
@@ -1122,8 +1133,8 @@ Robot {
                                                                         physics Physics {
                                                                             density -1
                                                                             mass 0.1560063362121582
-                                                                            centerOfMass [ 0.000223 -0.000694 -0.121950 ]
-                                                                            inertiaMatrix [ 0.0004206289886496961 0.00038888599374331534 7.517741323681548e-05 -6.577629818593778e-08 1.0602379916235805e-05 -6.84497626934899e-06]
+                                                                            centerOfMass [ -0.0005  -0.0007  -0.1374 ]
+                                                                            inertiaMatrix [ 0.00032125978541540715 0.0002970898396070995 5.930513977255061e-05 -1.78090213779247e-05 1.0068949037320458e-05 9.12007031230333e-06]
                                                                         }
                                                                         boundingObject Group {
                                                                             children [
@@ -1144,6 +1155,7 @@ Robot {
                                                                                 appearance Appearance {
                                                                                     material Material {
                                                                                         diffuseColor 0.0 0.0 0.0
+                                                                                        ambientIntensity .4
                                                                                     }
                                                                                 }
                                                                                 geometry Mesh {
@@ -1186,8 +1198,8 @@ Robot {
                                                                                             physics Physics {
                                                                                                 density -1
                                                                                                 mass 0.07807834446430206
-                                                                                                centerOfMass [ 0.005044 -0.001595 -0.084230 ]
-                                                                                                inertiaMatrix [ 0.00026767794729830346 0.00022231177717912942 7.064755522724596e-05 3.926228485986778e-07 1.0422890410707198e-05 -1.412188110806418e-07]
+                                                                                                centerOfMass [ 0.0043  -0.0028  -0.0894 ]
+                                                                                                inertiaMatrix [ 0.00030803708701385916 0.00026401713853632094 6.86880143520244e-05 1.45025453238431e-05 -3.017540514317418e-05 1.1684444436279674e-06]
                                                                                             }
                                                                                             boundingObject Group {
                                                                                                 children [
@@ -1208,6 +1220,7 @@ Robot {
                                                                                                     appearance Appearance {
                                                                                                         material Material {
                                                                                                             diffuseColor 0.0 0.0 0.0
+                                                                                                            ambientIntensity .4
                                                                                                         }
                                                                                                     }
                                                                                                     geometry Mesh {
@@ -1250,8 +1263,8 @@ Robot {
                                                                                                                 physics Physics {
                                                                                                                     density -1
                                                                                                                     mass 0.16655351221561432
-                                                                                                                    centerOfMass [ -0.022091 -0.000392 0.014043 ]
-                                                                                                                    inertiaMatrix [ 6.524354103021324e-05 0.00013478889013640583 0.00011734279541997239 7.226054776765523e-07 1.2699683793471195e-06 -9.071092108570156e-07]
+                                                                                                                    centerOfMass [ -0.0211  -0.0004   0.0146 ]
+                                                                                                                    inertiaMatrix [ 6.406397989665346e-05 0.000138889925623547 0.00011763402485724343 5.246599422116978e-05 -5.325945756840209e-05 9.456023099286511e-07]
                                                                                                                 }
                                                                                                                 boundingObject Group {
                                                                                                                     children [
@@ -1272,6 +1285,7 @@ Robot {
                                                                                                                         appearance Appearance {
                                                                                                                             material Material {
                                                                                                                                 diffuseColor 0.0 0.0 0.0
+                                                                                                                                ambientIntensity .4
                                                                                                                             }
                                                                                                                         }
                                                                                                                         geometry Mesh {
@@ -1314,8 +1328,8 @@ Robot {
                                                                                                                                     physics Physics {
                                                                                                                                         density -1
                                                                                                                                         mass 0.5
-                                                                                                                                        centerOfMass [ -0.010823 -0.008213 -0.032424 ]
-                                                                                                                                        inertiaMatrix [ 6.58251519780606e-05 0.0001575081259943545 0.0002076961100101471 7.743987225694582e-06 3.068289970542537e-06 2.275084170832997e-06]
+                                                                                                                                        centerOfMass [ -0.0083  -0.0110  -0.0335 ]
+                                                                                                                                        inertiaMatrix [ 0.0005098469562494755 0.0010865931282134198 0.0015035700692333474 -0.00012406375104209892 1.2588682814762884e-05 -1.4227917153379052e-05]
                                                                                                                                     }
                                                                                                                                     boundingObject Group {
                                                                                                                                         children [
@@ -1336,6 +1350,7 @@ Robot {
                                                                                                                                             appearance Appearance {
                                                                                                                                                 material Material {
                                                                                                                                                     diffuseColor 0.0 0.0 0.0
+                                                                                                                                                    ambientIntensity .4
                                                                                                                                                 }
                                                                                                                                             }
                                                                                                                                             geometry Mesh {
@@ -1472,8 +1487,8 @@ Robot {
                                 physics Physics {
                                     density -1
                                     mass 0.04650014638900757
-                                    centerOfMass [ 0.000347 -0.019783 -0.010469 ]
-                                    inertiaMatrix [ 1.1310856280033477e-05 1.3080918506602757e-05 8.474862625007518e-06 -1.2374789193358993e-08 3.740047134215274e-07 2.7855338657900575e-07]
+                                    centerOfMass [ 0.0003  -0.0198  -0.0105 ]
+                                    inertiaMatrix [ 1.1309023585654852e-05 1.307027276979988e-05 8.471517641981444e-06 -5.183239736335709e-07 1.5958131604560525e-07 -2.8032421370906753e-07]
                                 }
                                 boundingObject Group {
                                     children [
@@ -1494,6 +1509,7 @@ Robot {
                                         appearance Appearance {
                                             material Material {
                                                 diffuseColor 0.0 0.0 0.0
+                                                ambientIntensity .4
                                             }
                                         }
                                         geometry Mesh {
@@ -1536,8 +1552,8 @@ Robot {
                                                     physics Physics {
                                                         density -1
                                                         mass 0.056488167494535446
-                                                        centerOfMass [ -0.000522 -0.000286 -0.120622 ]
-                                                        inertiaMatrix [ 8.349423296749592e-05 8.60015643411316e-05 1.3630816283694003e-05 -1.1042741157249458e-12 2.8445752697781046e-12 6.40447808564204e-07]
+                                                        centerOfMass [ -0.0005  -0.0003  -0.1206 ]
+                                                        inertiaMatrix [ 8.347006007093779e-05 8.598803035825232e-05 1.362922498201172e-05 -3.549338517162309e-06 3.5470074713687255e-06 -6.325591511746593e-07]
                                                     }
                                                     boundingObject Group {
                                                         children [
@@ -1558,6 +1574,7 @@ Robot {
                                                             appearance Appearance {
                                                                 material Material {
                                                                     diffuseColor 0.0 0.0 0.0
+                                                                    ambientIntensity .4
                                                                 }
                                                             }
                                                             geometry Mesh {
@@ -1600,8 +1617,8 @@ Robot {
                                                                         physics Physics {
                                                                             density -1
                                                                             mass 0.025215454399585724
-                                                                            centerOfMass [ 0.000000 -0.021478 -0.090892 ]
-                                                                            inertiaMatrix [ 6.219958595465869e-05 7.157350773923099e-05 9.411746759724338e-06 -5.592373544195582e-22 -4.921231755439237e-10 1.3808940221263173e-20]
+                                                                            centerOfMass [ -1.0382e-06  -2.1478e-02  -9.0940e-02 ]
+                                                                            inertiaMatrix [ 6.205479617153606e-05 7.141024919208965e-05 9.393276167585844e-06 -4.753472091842145e-09 1.6938968326281539e-09 8.845101122210595e-10]
                                                                         }
                                                                         boundingObject Group {
                                                                             children [
