@@ -642,6 +642,22 @@ Robot {
                                                                                                                                                 url "RFCRobot2016/geometries/LeftFootRoll.STL"
                                                                                                                                             }
                                                                                                                                         }
+																																		Transform {
+																																			translation -0.016426287591457367 0.010411348193883898 -0.0343
+																																			children [
+																																				Shape {
+																																					appearance Appearance {
+																																						material Material {
+																																							diffuseColor 0.0 0.0 0.0
+																																							ambientIntensity .4
+																																						}
+																																					}
+																																					geometry Box {
+																																						size 0.1677 0.1055 0.01
+																																					}
+																																				}
+																																			]
+																																		}
                                                                                                                                         # LeftFootRoll2LeftFootRoll_body
                                                                                                                                         Transform {
                                                                                                                                             translation 0.000000 0.000000 0.000000
@@ -1357,6 +1373,22 @@ Robot {
                                                                                                                                                 url "RFCRobot2016/geometries/RightFootRoll.STL"
                                                                                                                                             }
                                                                                                                                         }
+																																		Transform {
+																																			translation -0.016426287591457367 -0.010411348193883898 -0.0343
+																																			children [
+																																				Shape {
+																																					appearance Appearance {
+																																						material Material {
+																																							diffuseColor 0.0 0.0 0.0
+																																							ambientIntensity .4
+																																						}
+																																					}
+																																					geometry Box {
+																																						size 0.1677 0.1055 0.01
+																																					}
+																																				}
+																																			]
+																																		}
                                                                                                                                         # RightFootRoll2RightFootRoll_body
                                                                                                                                         Transform {
                                                                                                                                             translation 0.000000 0.000000 0.000000
