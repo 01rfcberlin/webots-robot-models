@@ -2,7 +2,7 @@
 
 The exported [Webots](https://github.com/RoboCup-Humanoid-TC/webots) robot models of 01. RFC Berlin.
 
-On the left is the RFCRobot2016.proto Model and on the right the RFCRobot2016SimplifiedVisuals.proto
+This is our RFCRobot2016.proto Model in blue rendered inside webots.
 
 ![RFCRobot2016](/preview/RFCRobot2016.png)
 
