@@ -17,4 +17,3 @@ docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10002 -eROBOCUP_ROBOT_ID
 docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10003 -eROBOCUP_ROBOT_ID=3 ghcr.io/01rfcberlin/rfc-robot
 docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10004 -eROBOCUP_ROBOT_ID=4 ghcr.io/01rfcberlin/rfc-robot
 ```
-=======
